@@ -51,6 +51,7 @@
 		284903E71B98072700A4D9BB /* XTMacroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTMacroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		284903EB1B98072700A4D9BB /* XTMacroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTMacroUITests.m; sourceTree = "<group>"; };
 		284903ED1B98072700A4D9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284903FA1B98075300A4D9BB /* XTMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		284903C51B98072700A4D9BB /* XTMacro */ = {
 			isa = PBXGroup;
 			children = (
+				284903F91B98074400A4D9BB /* Macro */,
 				284903C91B98072700A4D9BB /* AppDelegate.h */,
 				284903CA1B98072700A4D9BB /* AppDelegate.m */,
 				284903CC1B98072700A4D9BB /* ViewController.h */,
@@ -139,6 +141,14 @@
 			);
 			path = XTMacroUITests;
 			sourceTree = "<group>";
+		};
+		284903F91B98074400A4D9BB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				284903FA1B98075300A4D9BB /* XTMacro.h */,
+			);
+			path = Macro;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
