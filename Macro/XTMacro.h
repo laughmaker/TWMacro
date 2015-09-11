@@ -7,10 +7,10 @@
 //
 
 //系统目录
-#define mDocumentPath   [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
-#define mCachePath      [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
-#define mTmpPath        NSTemporaryDirectory()
-#define mHomePath       NSHomeDirectory()
+#define mDocumentDir   [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+#define mCacheDir      [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+#define mTmpDir        NSTemporaryDirectory()
+#define mHomeDir       NSHomeDirectory()
 
 
 //----------方法简写-------
