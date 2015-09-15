@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "284903C21B98072700A4D9BB"
-               BuildableName = "XTMacro.app"
-               BlueprintName = "XTMacro"
-               ReferencedContainer = "container:XTMacro.xcodeproj">
+               BuildableName = "TWMacro.app"
+               BlueprintName = "TWMacro"
+               ReferencedContainer = "container:TWMacro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "284903DB1B98072700A4D9BB"
-               BuildableName = "XTMacroTests.xctest"
-               BlueprintName = "XTMacroTests"
-               ReferencedContainer = "container:XTMacro.xcodeproj">
+               BuildableName = "TWMacro.xctest"
+               BlueprintName = "TWMacroTests"
+               ReferencedContainer = "container:TWMacro.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "284903E61B98072700A4D9BB"
-               BuildableName = "XTMacroUITests.xctest"
-               BlueprintName = "XTMacroUITests"
-               ReferencedContainer = "container:XTMacro.xcodeproj">
+               BuildableName = "TWMacro.xctest"
+               BlueprintName = "TWMacroUITests"
+               ReferencedContainer = "container:TWMacro.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "284903C21B98072700A4D9BB"
-            BuildableName = "XTMacro.app"
-            BlueprintName = "XTMacro"
-            ReferencedContainer = "container:XTMacro.xcodeproj">
+            BuildableName = "TWMacro.app"
+            BlueprintName = "TWMacro"
+            ReferencedContainer = "container:TWMacro.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "284903C21B98072700A4D9BB"
-            BuildableName = "XTMacro.app"
-            BlueprintName = "XTMacro"
-            ReferencedContainer = "container:XTMacro.xcodeproj">
+            BuildableName = "TWMacro.app"
+            BlueprintName = "TWMacro"
+            ReferencedContainer = "container:TWMacro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "284903C21B98072700A4D9BB"
-            BuildableName = "XTMacro.app"
-            BlueprintName = "XTMacro"
-            ReferencedContainer = "container:XTMacro.xcodeproj">
+            BuildableName = "TWMacro.app"
+            BlueprintName = "TWMacro"
+            ReferencedContainer = "container:TWMacro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
