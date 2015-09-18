@@ -77,6 +77,9 @@ otherButtonTitles:nil]; \
 #define mScreenHeight         ([UIScreen mainScreen].bounds.size.height)
 #define mStatusBarHeight      ([UIApplication sharedApplication].statusBarFrame.size.height)
 #define mNavHeight            (mNavBarHeight + mStatusBarHeight)
+#define m6PScale              mScreenWidth/1242.0
+#define m6Scale               mScreenWidth/750.0
+#define m5Scale               mScreenWidth/640.0
 
 
 //调试模式下输入NSLog，发布后不再输入。

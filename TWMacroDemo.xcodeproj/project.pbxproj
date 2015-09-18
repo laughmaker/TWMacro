@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		284903C31B98072700A4D9BB /* TWMacro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWMacro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284903C31B98072700A4D9BB /* TWMacroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWMacroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284903C71B98072700A4D9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		284903C91B98072700A4D9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		284903CA1B98072700A4D9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		284903D21B98072700A4D9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284903D51B98072700A4D9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284903D71B98072700A4D9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		284903DC1B98072700A4D9BB /* TWMacro.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWMacro.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		284903E71B98072700A4D9BB /* TWMacro.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWMacro.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		284903FA1B98075300A4D9BB /* TWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMacro.h; sourceTree = "<group>"; };
+		284903DC1B98072700A4D9BB /* TWMacroDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWMacroDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284903E71B98072700A4D9BB /* TWMacroDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWMacroDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286AA5AA1BABBB0C00EEA6D1 /* TWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,8 @@
 		284903BA1B98072700A4D9BB = {
 			isa = PBXGroup;
 			children = (
-				284903C51B98072700A4D9BB /* TWMacro */,
+				286AA5A91BABBB0C00EEA6D1 /* TWMacro */,
+				284903C51B98072700A4D9BB /* TWMacroDemo */,
 				284903C41B98072700A4D9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,17 +85,16 @@
 		284903C41B98072700A4D9BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				284903C31B98072700A4D9BB /* TWMacro.app */,
-				284903DC1B98072700A4D9BB /* TWMacro.xctest */,
-				284903E71B98072700A4D9BB /* TWMacro.xctest */,
+				284903C31B98072700A4D9BB /* TWMacroDemo.app */,
+				284903DC1B98072700A4D9BB /* TWMacroDemo.xctest */,
+				284903E71B98072700A4D9BB /* TWMacroDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		284903C51B98072700A4D9BB /* TWMacro */ = {
+		284903C51B98072700A4D9BB /* TWMacroDemo */ = {
 			isa = PBXGroup;
 			children = (
-				284903F91B98074400A4D9BB /* Macro */,
 				284903C91B98072700A4D9BB /* AppDelegate.h */,
 				284903CA1B98072700A4D9BB /* AppDelegate.m */,
 				284903CC1B98072700A4D9BB /* ViewController.h */,
@@ -105,7 +105,7 @@
 				284903D71B98072700A4D9BB /* Info.plist */,
 				284903C61B98072700A4D9BB /* Supporting Files */,
 			);
-			path = TWMacro;
+			path = TWMacroDemo;
 			sourceTree = "<group>";
 		};
 		284903C61B98072700A4D9BB /* Supporting Files */ = {
@@ -116,20 +116,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		284903F91B98074400A4D9BB /* Macro */ = {
+		286AA5A91BABBB0C00EEA6D1 /* TWMacro */ = {
 			isa = PBXGroup;
 			children = (
-				284903FA1B98075300A4D9BB /* TWMacro.h */,
+				286AA5AA1BABBB0C00EEA6D1 /* TWMacro.h */,
 			);
-			path = Macro;
-			sourceTree = SOURCE_ROOT;
+			path = TWMacro;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		284903C21B98072700A4D9BB /* TWMacro */ = {
+		284903C21B98072700A4D9BB /* TWMacroDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284903F01B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacro" */;
+			buildConfigurationList = 284903F01B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemo" */;
 			buildPhases = (
 				284903BF1B98072700A4D9BB /* Sources */,
 				284903C01B98072700A4D9BB /* Frameworks */,
@@ -139,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = TWMacro;
+			name = TWMacroDemo;
 			productName = XTMacro;
-			productReference = 284903C31B98072700A4D9BB /* TWMacro.app */;
+			productReference = 284903C31B98072700A4D9BB /* TWMacroDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		284903DB1B98072700A4D9BB /* TWMacroTests */ = {
+		284903DB1B98072700A4D9BB /* TWMacroDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284903F31B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroTests" */;
+			buildConfigurationList = 284903F31B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemoTests" */;
 			buildPhases = (
 				284903D81B98072700A4D9BB /* Sources */,
 				284903D91B98072700A4D9BB /* Frameworks */,
@@ -157,14 +157,14 @@
 			dependencies = (
 				284903DE1B98072700A4D9BB /* PBXTargetDependency */,
 			);
-			name = TWMacroTests;
+			name = TWMacroDemoTests;
 			productName = XTMacroTests;
-			productReference = 284903DC1B98072700A4D9BB /* TWMacro.xctest */;
+			productReference = 284903DC1B98072700A4D9BB /* TWMacroDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		284903E61B98072700A4D9BB /* TWMacroUITests */ = {
+		284903E61B98072700A4D9BB /* TWMacroDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284903F61B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroUITests" */;
+			buildConfigurationList = 284903F61B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemoUITests" */;
 			buildPhases = (
 				284903E31B98072700A4D9BB /* Sources */,
 				284903E41B98072700A4D9BB /* Frameworks */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				284903E91B98072700A4D9BB /* PBXTargetDependency */,
 			);
-			name = TWMacroUITests;
+			name = TWMacroDemoUITests;
 			productName = XTMacroUITests;
-			productReference = 284903E71B98072700A4D9BB /* TWMacro.xctest */;
+			productReference = 284903E71B98072700A4D9BB /* TWMacroDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 284903BE1B98072700A4D9BB /* Build configuration list for PBXProject "TWMacro" */;
+			buildConfigurationList = 284903BE1B98072700A4D9BB /* Build configuration list for PBXProject "TWMacroDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,9 +215,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				284903C21B98072700A4D9BB /* TWMacro */,
-				284903DB1B98072700A4D9BB /* TWMacroTests */,
-				284903E61B98072700A4D9BB /* TWMacroUITests */,
+				284903C21B98072700A4D9BB /* TWMacroDemo */,
+				284903DB1B98072700A4D9BB /* TWMacroDemoTests */,
+				284903E61B98072700A4D9BB /* TWMacroDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,12 +279,12 @@
 /* Begin PBXTargetDependency section */
 		284903DE1B98072700A4D9BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 284903C21B98072700A4D9BB /* TWMacro */;
+			target = 284903C21B98072700A4D9BB /* TWMacroDemo */;
 			targetProxy = 284903DD1B98072700A4D9BB /* PBXContainerItemProxy */;
 		};
 		284903E91B98072700A4D9BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 284903C21B98072700A4D9BB /* TWMacro */;
+			target = 284903C21B98072700A4D9BB /* TWMacroDemo */;
 			targetProxy = 284903E81B98072700A4D9BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,10 +393,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/TWMacro/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TWMacroDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacro;
-				PRODUCT_NAME = TWMacro;
+				PRODUCT_NAME = TWMacroDemo;
 			};
 			name = Debug;
 		};
@@ -404,10 +404,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/TWMacro/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TWMacroDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacro;
-				PRODUCT_NAME = TWMacro;
+				PRODUCT_NAME = TWMacroDemo;
 			};
 			name = Release;
 		};
@@ -418,8 +418,8 @@
 				INFOPLIST_FILE = XTMacroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacroTests;
-				PRODUCT_NAME = TWMacro;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWMacro.app/TWMacro";
+				PRODUCT_NAME = TWMacroDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWMacroDemo.app/TWMacroDemo";
 			};
 			name = Debug;
 		};
@@ -430,8 +430,8 @@
 				INFOPLIST_FILE = XTMacroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacroTests;
-				PRODUCT_NAME = TWMacro;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWMacro.app/TWMacro";
+				PRODUCT_NAME = TWMacroDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWMacroDemo.app/TWMacroDemo";
 			};
 			name = Release;
 		};
@@ -441,7 +441,7 @@
 				INFOPLIST_FILE = XTMacroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacroUITests;
-				PRODUCT_NAME = TWMacro;
+				PRODUCT_NAME = TWMacroDemo;
 				TEST_TARGET_NAME = XTMacro;
 				USES_XCTRUNNER = YES;
 			};
@@ -453,7 +453,7 @@
 				INFOPLIST_FILE = XTMacroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTMacroUITests;
-				PRODUCT_NAME = TWMacro;
+				PRODUCT_NAME = TWMacroDemo;
 				TEST_TARGET_NAME = XTMacro;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		284903BE1B98072700A4D9BB /* Build configuration list for PBXProject "TWMacro" */ = {
+		284903BE1B98072700A4D9BB /* Build configuration list for PBXProject "TWMacroDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284903EE1B98072700A4D9BB /* Debug */,
@@ -471,7 +471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284903F01B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacro" */ = {
+		284903F01B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284903F11B98072700A4D9BB /* Debug */,
@@ -480,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284903F31B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroTests" */ = {
+		284903F31B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284903F41B98072700A4D9BB /* Debug */,
@@ -489,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284903F61B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroUITests" */ = {
+		284903F61B98072700A4D9BB /* Build configuration list for PBXNativeTarget "TWMacroDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284903F71B98072700A4D9BB /* Debug */,
