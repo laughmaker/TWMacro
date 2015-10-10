@@ -42,6 +42,7 @@
 //G－C－D
 #define mGCDBackground(block) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block)
 #define mGCDMain(block)       dispatch_async(dispatch_get_main_queue(),block)
+#define mGCDAfter(sec, block) dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(sec * NSEC_PER_SEC)), dispatch_get_main_queue(), block)
 
 
 //简单的以AlertView显示提示信息
